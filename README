@@ -1,4 +1,4 @@
-Dootix is a 64-bit hobby OS kernel targeting x86_64 platforms, built from scratch for practice, educational, and personal research purposes.
+Dootix, named after Sanskrit word doot (messenger) is a 64-bit hobby OS kernel targeting x86_64 platforms, built from scratch for practice, educational, and personal research purposes.
 
 Current Version
 	- 0.1.0 - early bootable kernel
