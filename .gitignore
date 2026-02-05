@@ -1,0 +1,18 @@
+# Build directories
+build/
+isodir/boot/kernel.elf
+
+# Compiled outputs
+*.o
+*.elf
+*.iso
+
+# Toolchain noise
+*.d
+*.map
+
+# Editor / OS junk
+*~
+*.swp
+.DS_Store
+

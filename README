@@ -1,0 +1,24 @@
+Dootix is a 64-bit hobby OS kernel targeting x86_64 platforms, built from scratch for practice, educational, and personal research purposes.
+
+Current Version
+	- 0.1.0 - early bootable kernel
+
+Current Status
+	- Multiboot2 boot via GRUB
+	- Long Mode enabled
+	- VGA text console
+	- Serial logging
+	- IDT and basic IRQ handling
+
+The system is still under development, hence a few unfinished subsystems
+
+Build
+	- x86_64-elf-gcc
+	- x86_64-elf-ld
+	- QEMU
+	- GRUB
+
+Build & Run
+```bash
+make
+qemu-system-x86_64 -cdrom dootix.iso 
